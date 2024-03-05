@@ -3,7 +3,7 @@ import UIKit
 class ScoreController: UIViewController {
     
     var topicOfQuestion = ""
-    var score = 8
+    var score = 0
     var textt = ["Better Luck Next Time", "You're the true fan of "]
     var nameOfQuestion = ""
     @IBOutlet weak var scoreLabel: UILabel!

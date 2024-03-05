@@ -26,11 +26,11 @@ struct Quiz {
         Question(text: "On 1989 (Taylor’s Version), a song with characters from which fictional story is featured?", choice1: "The Great Gatsby", choice2: "Alice’s Adventures in Wonderland", choice3: "Willy Wonka and the Chocolate Factory", choice4: "Romeo and Juliet", answer: "Alice’s Adventures in Wonderland"),
         Question(text: "What country music star’s name was the title of Taylor Swift’s first single?", choice1: "Hank Williams", choice2: "Garth Brooks", choice3: "Tim McGraw", choice4: "Faith Hill", answer: "Tim McGraw")]
     var quizForTaylor_Hard = [
-        Question(text: "What does the abbreviation “TV” stand for in Red (TV) and 1989 (TV)?", choice1: "Taylor’s Version", choice2: "Television", choice3: "The Verse", choice4: "Time Value", answer: "Taylor’s Version"),
-        Question(text: "How many studio albums does Taylor Swift have as of 2023?", choice1: "10", choice2: "9", choice3: "11", choice4: "13", answer: "10"),
+        Question(text: "What does the abbreviation “TV” stand for in Red (TV) and 1989 (TV)?", choice1: "Television", choice2: "Taylor’s Version", choice3: "The Verse", choice4: "Time Value", answer: "Taylor’s Version"),
+        Question(text: "How many studio albums does Taylor Swift have as of 2023?", choice1: "8", choice2: "9", choice3: "10", choice4: "13", answer: "10"),
         Question(text: "What year was Taylor Swift born?", choice1: "1989", choice2: "1999", choice3: "1987", choice4: "2000", answer: "1989"),
         Question(text: "Which of these quotes is from Taylor Swift’s reputation era?", choice1: "Be like a snake. Be nice to everyone, unless someone steps on you.", choice2: "I think fearless is having fears but jumping anyway.", choice3: "I don’t think you should wait. I think you should speak now.", choice4: "My name is Taylor, and I was born in 1989.", answer: "Be like a snake. Be nice to everyone, unless someone steps on you."),
-        Question(text: "At what age did Taylor Swift win her first Grammy?", choice1: "20", choice2: "16", choice3: "22", choice4: "18", answer: "20"),
+        Question(text: "At what age did Taylor Swift win her first Grammy?", choice1: "18", choice2: "16", choice3: "22", choice4: "20", answer: "20"),
         Question(text: "Who is Taylor Swift’s brother?", choice1: "Austin Swift", choice2: "Jonathon Swift", choice3: "Ben Swift", choice4: "Scott Swift", answer: "Austin Swift"),
         Question(text: "What are the names of Taylor Swift’s cats?", choice1: "Meredith Grey, Olivia Benson, and Benjamin Button", choice2: "Lexie Grey, Elliot Stabler, and Thomas Button", choice3: "Fluffy, Feisty, and Frisky", choice4: "Grizabella, Bombalurina, and Rumpleteazer", answer: "Meredith Grey, Olivia Benson, and Benjamin Button"),
         Question(text: "What did Taylor Swift name the giant snake that appeared on the reputation world tour?", choice1: "Karyn", choice2: "Samantha", choice3: "Dibbles", choice4: "Kim", answer: "Karyn"),
@@ -91,13 +91,15 @@ struct Quiz {
     ]
     var quizForChula_Easy = [
         Question(text: "The university's official color of Chulalongkorn University is", choice1: "Red", choice2: "Blue", choice3: "Pink", choice4: "Purple", answer: "Pink"),
-        Question(text: "The university's emblematic tree is", choice1: "Rose Quartz", choice2: "Chamchuri Tree", choice3: "Golden Shower Tree", choice4: "Wan Nang Kham", answer: "Chachuri Tree"),
+        Question(text: "The university's emblematic tree is", choice1: "Rose Quartz", choice2: "Chamchuri Tree", choice3: "Golden Shower Tree", choice4: "Wan Nang Kham", answer: "Chamchuri Tree"),
         Question(text: "When was The university born", choice1: "2445", choice2: "2430", choice3: "2459", choice4: "2488", answer: "2459"),
         Question(text: "The university motto is", choice1: "เหลืองของเรา คือ ธรรมประจำจิต แดงของเรา คือ โลหิตอุทิศให้ ", choice2: "ศิลปะยืนยาว  แต่อายุสั้น", choice3: "ขอให้ถือประโยชน์ส่วนตนเป็นที่สอง  ประโยชน์ของเพื่อนมนุษย์เป็นกิจที่หนึ่ง ", choice4: "เกียรติภูมิจุฬาฯ คือเกียรติแห่งการรับใช้ประชาชน", answer: "เกียรติภูมิจุฬาฯ คือเกียรติแห่งการรับใช้ประชาชน"),
         Question(text: "The founder of Chulalongkorn University is", choice1: "พระบาทสมเด็จพระมงกุฎเกล้าเจ้าอยู่หัว", choice2: "พระนางเจ้าสุวัทนา พระวรราชเทวี", choice3: "พระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัว", choice4: "พระบาทสมเด็จพระนั่งเกล้าเจ้าอยู่หัว", answer: "พระบาทสมเด็จพระมงกุฎเกล้าเจ้าอยู่หัว"),
         Question(text: "The emblem of Chulalongkorn University is", choice1: "ธรรมจักร", choice2: "พระเกี้ยว", choice3: "พระพิรุณทรงนาค", choice4: "พระมหาพิชัยมงกุฎ", answer: "พระเกี้ยว"),
-        Question(text: "Which one is correct", choice1: "จุฬาลงกรณ์มหาวิทยาลัย เป็นมหาวิทยาลัยแห่งที่สองของประเทศไทย", choice2: "ตั้งอยู่ที่เขต สีลม", choice3: "คณะก่อตั้งจุฬาฯ 4 คณะแรก คือ รัฐศาสตร์ วิศวกรรมศาสตร์ แพทยศาสตร์ และอักษรศาสตร์และวิทยาศาสตร์", choice4: "สีประจำมหาวิทยาลัย คือ สีฟ้า", answer: "คณะก่อตั้งจุฬาฯ 4 คณะแรก คือ รัฐศาสตร์ วิศวกรรมศาสตร์ แพทยศาสตร์ และอักษรศาสตร์และวิทยาศาสตร์"),
-        Question(text: "อักษร “ฬ” เป็นอักษรย่อแทนคณะใด", choice1: "รัฐศาสตร์", choice2: "นิติศาสตร์", choice3: "แพทยศาสตร์", choice4: "วิศวกรรมศาสตร์", answer:"นิติศาสตร์")
+        Question(text: "Which one is correct", choice1: "จุฬาลงกรณ์มหาวิทยาลัย เป็นมหาวิทยาลัยแห่งที่สองของประเทศไทย", choice2: "ตั้งอยู่ที่เขต สีลม", choice3: "คณะก่อตั้ง 4 คณะแรก คือ รัฐศาสตร์ วิศวกรรมศาสตร์ แพทยศาสตร์ และอักษรศาสตร์", choice4: "สีประจำมหาวิทยาลัย คือ สีฟ้า", answer: "คณะก่อตั้งจุฬาฯ 4 คณะแรก คือ รัฐศาสตร์ วิศวกรรมศาสตร์ แพทยศาสตร์ และอักษรศาสตร์และวิทยาศาสตร์"),
+        Question(text: "อักษร “ฬ” เป็นอักษรย่อแทนคณะใด", choice1: "รัฐศาสตร์", choice2: "นิติศาสตร์", choice3: "แพทยศาสตร์", choice4: "วิศวกรรมศาสตร์", answer:"นิติศาสตร์"),
+        Question(text: "เพลงประจำคณะวิศวจุฬา คือเพลงใด", choice1: "ติดฝน", choice2: "Enchanted", choice3: "ปราสาทแดง", choice4: "น้องนางลาแก้ว", answer: "ปราสาทแดง"),
+        Question(text: "รถโดยสารภายในจุฬาฯ เรียกกันติดปากว่า", choice1: "ซาเล้ง", choice2: "รถป๊อป", choice3: "รถราง", choice4: "รถลาน", answer: "รถป๊อป")
     ]
     
     mutating func getQuestion(topicOfQuestion : String) -> String {
@@ -217,8 +219,10 @@ struct Quiz {
     mutating func nextQuestion(){
         if(numberOfQuestion >= 9){
             numberOfQuestion = 0
+        }else{
+            numberOfQuestion += 1
         }
-        numberOfQuestion += 1
+      
     }
     mutating func checkAnswer(userAnswer : String, topicOfQuestion : String) -> Bool {
         if(topicOfQuestion == "quizForTaylor_Easy"){
